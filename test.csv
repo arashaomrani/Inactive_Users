@@ -1,0 +1,4 @@
+,country_code,timezone,tenure,first_activity_dt,last_activity_dt,num_sessions,game_level_tries,in_game_powers,powers_successfully_applied,near_win_attempts,player_id,session_duration
+0,US,America/Merida,2123,2017-06-28,2023-04-18,24.0,27.0,,,75.0,eiyybadsvdphipvfdrpjurruc,78
+1,US,GMT+00:00,104,2023-01-07,2023-02-07,48.0,,,260.0,28.0,qkhkgkswastbevocfhqhxkhme,71
+2,US,GMT-06:00,14,2023-04-07,2023-04-08,1.0,6.0,0.0,0.0,0.0,uklvboopgbzcpdoqjifqpypif,70
