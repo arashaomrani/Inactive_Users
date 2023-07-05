@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+service ChurnService {
+  rpc GetChurned(ChurnRequest) returns (ChurnResponse) {}
+}
+
+message ChurnRequest {
+  string input = 1;
+  string output = 2;
+  string training = 3;
+}
+
+message ChurnResponse {
+  repeated float prediction = 1;
+  repeated int64 churn_class = 2;
+}
