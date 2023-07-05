@@ -22,7 +22,7 @@ The --host argument of the server script should be set to 0.0.0.0 to accept conn
 To run client, run the following command: `python3 client.py --input activity_data.csv --output output.csv --training True --host server_public_ip_or_hostname --port 50051`
 
 Client can accept 5 arguements (`input csv file location`, `output csv file location`, `training`, `host`, and `port`).
-If ther `--training` arguement be `True` then it run a training on the input csv file and save the trained model and other preprocessing objects. If the `--training` be `False`, it runs prediction on the input csv using the trained model, and saves the results in the output csv file.
+If ther `--training` arguement be `True` then it run a training on the input csv file and save the trained model and other preprocessing objects. If the `--training` be `False`, it runs batch prediction on the input csv using the saved trained model, and saves the results in the output csv file.
 
 The format of input and ouput files should be csv.
 
